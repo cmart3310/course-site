@@ -9,13 +9,15 @@ import { CoursesService } from './couses.service';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     SummaryPipe,
-    FavoriteComponent
+    FavoriteComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
