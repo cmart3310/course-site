@@ -4,7 +4,7 @@ import { Directive, HostListener, ElementRef, Input } from '@angular/core';
   selector: '[appInputFormat]'
 })
 export class InputFormatDirective {
-  @Input('appInputFormat') format;
+  @Input('appInputFormat') format: string;
   constructor(private el: ElementRef) { }
 
   @HostListener('blur') onBlur() {
