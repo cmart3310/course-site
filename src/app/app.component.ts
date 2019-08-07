@@ -7,12 +7,10 @@ import { FavoriteChangedEventArgs } from './favorite/favorite.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  post = {
-    title: 'Title',
-    isFavorite: true
+  task = {
+    title: 'Review applications',
+    assignee: {
+      name: 'John Smith'
+    }
   };
-
-  onFavoriteChanged(eventArgs: FavoriteChangedEventArgs) {
-    console.log('Favorite changed: ', eventArgs.newValue);
-  }
 }

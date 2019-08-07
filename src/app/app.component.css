@@ -1,0 +1,9 @@
+.saveEnabled {
+  color: white;
+  background-color: blue;
+}
+
+.saveDisabled {
+  color: black;
+  background-color: gray;
+}
